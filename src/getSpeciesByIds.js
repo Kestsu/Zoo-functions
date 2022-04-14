@@ -5,8 +5,8 @@ const { species } = data;
 function getSpeciesByIds(...ids) {
   const todos = [...ids];
   if (!todos) return [];
- let especie = species.filter((animal) => todos.includes(animal.id))
- return especie
+  const especie = species.filter((animal) => todos.includes(animal.id));
+  return especie;
 }
 
 // console.log(getSpeciesByIds(
