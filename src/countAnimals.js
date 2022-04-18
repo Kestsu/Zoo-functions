@@ -28,6 +28,7 @@ function countAnimals(animal) {
   const genero = residents.filter((tipo) => tipo.sex === sexo);
   const nomes = residents.length;
   const seila = genero.length;
+  // console.log( informações);
   return totalDeElementos === 1 ? nomes : seila;
 }
 
